@@ -1,0 +1,36 @@
+@import "../../app.scss";
+//so that we can use our mobile function here
+.navbar{
+    height:100px;
+
+    // we can write our items inside the parent in scss or sas
+    .wrapper{
+        max-width: 1366px;
+        margin:auto;
+        display: flex;//to align items horizontally
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        @include mobile{
+            padding:20px;
+            justify-content: flex-end;
+        }
+        // span{
+        //     font-weight: bold;
+        //     @include mobile{
+        //         display: none;
+        //     }
+        // }
+
+        .social{
+            display: flex;
+            gap:20px;
+            
+            img{
+                height:18px;
+                width:18px;
+            }
+        }
+    }
+}
