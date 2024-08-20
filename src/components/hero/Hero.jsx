@@ -57,7 +57,7 @@ const Hero = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-                <a href="https://drive.google.com/file/d/1NNvW3M5fPHgtnqfKkORL35MxPuli2_xE/view?usp=drivesdk" key="Resume">
+                <a href="https://drive.google.com/file/d/1OLBsp0aT2r-GxC2g6KfmOicsNGtBBmKz/view?usp=drive_link" key="Resume">
                     Download Resume
                 </a>
             </motion.button>
